@@ -240,16 +240,16 @@ function nextQuestionHandler() {
 function updateScore(right) {
 
     if (right == 20) {
-        resultImage.setAttribute('src', 'images/trophy.gif')
+        resultImage.setAttribute('src', '.images/trophy.gif')
         message.innerHTML = 'Congrats!'
     } else if (right > 1 && right < 20) {
-        resultImage.setAttribute('src', 'images/explose.gif')
+        resultImage.setAttribute('src', '.images/explose.gif')
         message.innerHTML = 'Nice'
     } else if (right == 1) {
-        resultImage.setAttribute('src', 'images/explose.gif')
+        resultImage.setAttribute('src', '.images/explose.gif')
         message.innerHTML = 'Sorry'
     } else {
-        resultImage.setAttribute('src', 'images/explose.gif')
+        resultImage.setAttribute('src', '.images/explose.gif')
         message.innerHTML = 'You did not get any points!'
     }
 
