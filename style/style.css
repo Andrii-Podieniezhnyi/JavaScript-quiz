@@ -80,6 +80,7 @@ label{
     margin-left: 54px;
     margin-top: 10px;
     outline: none;
+    width: -webkit-fill-available;
 }
 
 .start_quiz{
